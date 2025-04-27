@@ -1,5 +1,5 @@
-id: RSC_PinksheepTech_EpoTech
-name: PinksheepTech_EpoTech
+id: RSC_PinksheepTech_EpoTechExtend
+name: PinksheepTech_EpoTechExtend
 depends: []
 pluginDepends:
 scriptListener: ''
