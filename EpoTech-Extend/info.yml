@@ -1,0 +1,10 @@
+id: RSC_PinksheepTech_EpoTech
+name: PinksheepTech_EpoTech
+depends: []
+pluginDepends:
+scriptListener: ''
+version: "6.6.6.6"
+description: "EpoTech的扩展内容    出事作者不负责= （"
+authors:
+- NULL
+repo: ''

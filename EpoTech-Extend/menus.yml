@@ -1,0 +1,46 @@
+SHENGWU_GONGFANG: 
+  title: "&b&l生物工坊"
+  slots:
+    3: 
+      name: "&a"
+      material: blue_stained_glass_pane
+    4-6: 
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    7: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    8: 
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    12: 
+      name: "&a"
+      material: blue_stained_glass_pane
+    13:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+      name: '&7正在制作神秘生物....'
+      progressbar: true
+      progressBarItem:
+        material: DIAMOND_SWORD
+    14: 
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    15: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    21: 
+      name: "&a"
+      material: blue_stained_glass_pane
+    22-24: 
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    25: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    26: 
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE

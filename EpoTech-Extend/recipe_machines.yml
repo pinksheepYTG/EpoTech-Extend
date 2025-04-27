@@ -1,0 +1,415 @@
+DNA_TIQU:
+  lateInit: false
+  item_group: EpoTech_kuozhan
+  item:
+    name: '&c&lDNA提取仪'
+    lore:
+      - '&7快捷提取生物DNA'
+      - ''
+      - '&bEpoTech扩展机器'
+      - '&8⇨ &e⚡&7 3000 J 可存储'
+      - '&8⇨ &e⚡&7 200 J/s'
+    material_type: skull_hash
+    material: 7ef65cd50b885b705e558e95836a12477acc8ba36eae588b22569496c7043680
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CARBON_PRESS_3
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: AUTO_BREWER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+  capacity: 3000
+  energyPerCraft: 200
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: MUTTON
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_SHEEP_GENOME
+          amount: 1
+    '2':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: BEEF
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_COW_GENOME
+          amount: 1
+    '3':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: PORKCHOP
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_PIG_GENOME
+          amount: 1
+    '4':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: CHICKEN
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_CHICKEN_GENOME
+          amount: 1
+    '5':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: RABBIT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_RABBIT_GENOME
+          amount: 1
+    '6':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: COD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_COD_GENOME
+          amount: 1
+    '7':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: SALMON
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_SALMON_GENOME
+          amount: 1
+    '8':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: TROPICAL_FISH
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_TROPICAL_FISH_GENOME
+          amount: 1
+    '9':
+      seconds: 5
+      input:
+        1:
+          material_type: mc
+          material: PUFFERFISH
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_PUFFERFISH_GENOME
+          amount: 1
+  input: [19, 20]
+  output: [24, 25]
+
+
+
+SHENGWU_GONGFANG:
+  lateInit: false
+  item_group: EpoTech_kuozhan
+  item:
+    name: '&b&l生物工坊'
+    lore:
+      - '&7快捷制造神秘生物系列'
+      - '&8也可以用来获取1级核心哦~'
+      - ''
+      - '&bEpoTech扩展机器'
+      - '&8⇨ &e⚡&7 3000 J 可存储'
+      - '&8⇨ &e⚡&7 200 J/s'
+    material_type: skull_hash
+    material: 4e2ce3372a3ac97fdda5638bef24b3bc49f4facf751fe9cad645f15a7fb8397c
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_KJ_HX
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_KJ_HX
+      amount: 1
+    4:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: IRON_GOLEM_ASSEMBLER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MACHINE_CORE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+  capacity: 3000
+  energyPerCraft: 200
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: JP_COD_GENOME
+          amount: 1
+        2:
+          material_type: slimefun
+          material: JP_COW_GENOME
+          amount: 1
+        3:
+          material_type: slimefun
+          material: JP_PIG_GENOME
+          amount: 1
+        4:
+          material_type: slimefun
+          material: JP_SHEEP_GENOME
+          amount: 1
+        5:
+          material_type: slimefun
+          material: JP_RABBIT_GENOME
+          amount: 1
+        6:
+          material_type: slimefun
+          material: JP_SALMON_GENOME
+          amount: 1
+        7:
+          material_type: slimefun
+          material: JP_CHICKEN_GENOME
+          amount: 1
+        8:
+          material_type: slimefun
+          material: JP_TROPICAL_FISH_GENOME
+          amount: 1
+        9:
+          material_type: slimefun
+          material: JP_PUFFERFISH_GENOME
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: RPG_ZOMBIE_1
+          amount: 1
+    '2':
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: BEEF_JERKY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: PORK_JERKY
+          amount: 1
+        3:
+          material_type: slimefun
+          material: CHICKEN_JERKY
+          amount: 1 
+        4:
+          material_type: slimefun
+          material: MUTTON_JERKY
+          amount: 1
+        5:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1
+        6:
+          material_type: slimefun
+          material: RABBIT_JERKY
+          amount: 1
+        7:
+          material_type: slimefun
+          material: MONSTER_JERKY
+          amount: 1
+        8:
+          material_type: slimefun
+          material: FISH_JERKY
+          amount: 1
+        9:
+          material_type: slimefun
+          material: KELP_COOKIE
+          amount: 1   
+      output:
+        1:
+          material_type: slimefun
+          material: RPG_ZOMBIE_2
+          amount: 1
+    '3':
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_LIGHTNING
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MAGIC_LUMP_3
+          amount: 1
+        3:
+          material_type: slimefun
+          material: ANCIENT_RUNE_FIRE 
+          amount: 1
+        4:
+          material_type: slimefun
+          material: ENDER_LUMP_3
+          amount: 1
+        5:
+          material_type: slimefun
+          material: JP_JH_2
+          amount: 1
+        6:
+          material_type: slimefun
+          material: ENDER_LUMP_3
+          amount: 1
+        7:
+          material_type: slimefun
+          material: ANCIENT_RUNE_FIRE
+          amount: 1
+        8:
+          material_type: slimefun
+          material: MAGIC_LUMP_3
+          amount: 1
+        9:
+          material_type: slimefun
+          material: ANCIENT_RUNE_LIGHTNING 
+          amount: 1  
+      output:
+        1:
+          material_type: slimefun
+          material: RPG_ZOMBIE_3
+          amount: 1
+    '4':
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_AIR
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ANCIENT_RUNE_VILLAGERS
+          amount: 1
+        3:
+          material_type: slimefun
+          material: ANCIENT_RUNE_FIRE 
+          amount: 1
+        4:
+          material_type: slimefun
+          material: ESSENCE_OF_AFTERLIFE
+          amount: 1
+        5:
+          material_type: slimefun
+          material: JP_JH_3
+          amount: 1
+        6:
+          material_type: slimefun
+          material: ESSENCE_OF_AFTERLIFE
+          amount: 1
+        7:
+          material_type: slimefun
+          material: ANCIENT_RUNE_LIGHTNING
+          amount: 1
+        8:
+          material_type: slimefun
+          material: ANCIENT_RUNE_ENCHANTMENT
+          amount: 1
+        9:
+          material_type: slimefun
+          material: ANCIENT_RUNE_SOULBOUND
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: RPG_ZOMBIE_4
+          amount: 1
+
+    '5':
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: RPG_ZOMBIE_1
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1
+  input: [0,1,2,9,10,11,18,19,20]
+  output: [16]
