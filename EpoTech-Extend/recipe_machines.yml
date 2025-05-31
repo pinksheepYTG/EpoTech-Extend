@@ -411,5 +411,41 @@ SHENGWU_GONGFANG:
           material_type: slimefun
           material: JP_JH_1
           amount: 1
+    '6':
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: RPG_ZOMBIE_2
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_JH_2
+          amount: 1
+    '7':
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: RPG_ZOMBIE_3
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_JH_3
+          amount: 1
+    '8':
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: RPG_ZOMBIE_4
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: JP_JH_4
+          amount: 1
   input: [0,1,2,9,10,11,18,19,20]
   output: [16]
